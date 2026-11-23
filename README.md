@@ -1,6 +1,6 @@
 # NetrekProtocol
 
-[![CI](https://github.com/lismondbernard/NetrekProtocol/actions/workflows/ci.yml/badge.svg)](https://github.com/lismondbernard/NetrekProtocol/actions/workflows/ci.yml)
+[![CI](https://github.com/silentspice/NetrekProtocol/actions/workflows/ci.yml/badge.svg)](https://github.com/silentspice/NetrekProtocol/actions/workflows/ci.yml)
 
 A Swift package for the classic [Netrek](https://www.netrek.org) protocol. It has two products:
 
@@ -47,7 +47,7 @@ macOS 12, iOS 15 and tvOS 15 or later, Swift 5.9 or later. The code avoids Swift
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/lismondbernard/NetrekProtocol.git", branch: "main"),
+    .package(url: "https://github.com/silentspice/NetrekProtocol.git", branch: "main"),
 ],
 targets: [
     .target(name: "MyClient", dependencies: ["NetrekProtocol"]),
